@@ -2,6 +2,9 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Slider from '../inc/Slider'
 import VMC from './inc/Vmc'
+import service1 from '../images/service1.jpg'
+import service2 from '../images/service2.jpg'
+import service3 from '../images/services4.jpg'
 
 const Home = () => {
     return (
@@ -20,6 +23,8 @@ const Home = () => {
             {/* our vision misssion and values */}
             <VMC />
 
+
+            {/* our services */}
             <section className="section bg-c-light border-top">
                 <div className="container">
                     <div className="row">
@@ -28,17 +33,39 @@ const Home = () => {
                             <div className="underline mx-auto"> </div>
                         </div>
                         <div className="col-md-4 ">
-                            <h6>Our Vision</h6>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam temporibus tempora quia porro quas earum accusamus consequatur ad reiciendis rerum beatae asperiores hic ut voluptates incidunt, </p>
+                            <div className="card shadow">
+                                <img src={service1} className="w-60 h-100px border-bottom" alt="Services" />
+                                <div className="card-body">
+                                    <h6>Service 1</h6>
+                                    <div className="underline"></div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui in ducimus velit commodi, repellat iste.</p>
+                                    <Link to="/services" className="btn btn-warning shadow">Read More</Link>
+                                </div>
+                            </div>
                         </div>
                         <div className="col-md-4 ">
-                            <h6>Our Mission</h6>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam temporibus tempora quia porro quas earum accusamus consequatur ad reiciendis rerum beatae asperiores hic ut voluptates incidunt, </p>
+                            <div className="card shadow">
+                                <img src={service2} className="w-60 h-100px border-bottom" alt="Services" />
+                                <div className="card-body">
+                                    <h6>Service 2</h6>
+                                    <div className="underline"></div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui in ducimus velit commodi, repellat iste.</p>
+                                    <Link to="/services" className="btn btn-warning shadow">Read More</Link>
+                                </div>
+                            </div>
                         </div>
                         <div className="col-md-4 ">
-                            <h6>Our Core values</h6>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam temporibus tempora quia porro quas earum accusamus consequatur ad reiciendis rerum beatae asperiores hic ut voluptates incidunt, </p>
+                            <div className="card shadow">
+                                <img src={service3} className="w-60 h-100px border-bottom" alt="Services" />
+                                <div className="card-body">
+                                    <h6>Service 3</h6>
+                                    <div className="underline"></div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui in ducimus velit commodi, repellat iste.</p>
+                                    <Link to="/services" className="btn btn-warning shadow">Read More</Link>
+                                </div>
+                            </div>
                         </div>
+
                     </div>
                 </div>
             </section>

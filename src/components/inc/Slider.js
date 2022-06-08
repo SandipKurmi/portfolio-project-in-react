@@ -1,7 +1,7 @@
 import React from 'react'
-import Slider1 from '../images/slider1.jpg'
-import Slider2 from '../images/slider2.jpg'
-import Slider3 from '../images/slider3.jpg'
+import Slider1 from '../images/slider1.svg'
+import Slider2 from '../images/slider2.svg'
+import Slider3 from '../images/slider3.svg'
 
 const Slider = () => {
     return (
@@ -13,13 +13,13 @@ const Slider = () => {
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src={Slider1} class="d-block w-100" alt="..." />
+                    <img src={Slider1} class="d-block w-100 h-670.5px" alt="..." />
                 </div>
                 <div class="carousel-item">
-                    <img src={Slider2} class="d-block w-100" alt="..." />
+                    <img src={Slider2} class="d-block w-100 h-670.5px" alt="..." />
                 </div>
                 <div class="carousel-item">
-                    <img src={Slider3} class="d-block w-100" alt="..." />
+                    <img src={Slider3} class="d-block w-100 h-670.5px" alt="..." />
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
