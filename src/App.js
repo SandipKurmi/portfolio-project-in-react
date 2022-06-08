@@ -1,15 +1,28 @@
-import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "./App.css"
+import Home from "../src/components/pages/Home"
+import About from "../src/components/pages/About"
+import Contact from "../src/components/pages/Contact"
+import Navbar from "./components/inc/Navbar"
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
 
 
 function App() {
 
-
-
-
   return (
     <div className="App">
-      <h2>Portfolio Project</h2>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </BrowserRouter>
+
     </div>
   );
 }
