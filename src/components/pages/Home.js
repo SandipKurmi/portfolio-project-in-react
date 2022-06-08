@@ -15,7 +15,9 @@ const Home = () => {
                     <div className="col-md-12 text-center">
                         <h3 className="main-heading">Our Company</h3>
                         <div className="underline mx-auto"> </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi laboriosam error deserunt nemo iste sint similique quam placeat ipsum quidem perspiciatis cupiditate minus eaque atque, adipisci fuga impedit sunt sequi! Ipsa ex ratione numquam eligendi ut expedita magnam ad dicta error! Inventore nihil sunt corporis earum eaque ex soluta similique ullam ipsum architecto neque nostrum porro, repudiandae nemo at doloremque repellendus voluptates sit incidunt? Dolorem perferendis cum praesentium similique, quidem optio delectus, tenetur autem distinctio soluta explicabo iusto consequuntur eveniet, odit incidunt culpa alias ea. Molestiae rem iusto id facilis, eveniet, dolor laborum aliquid corporis non ducimus veniam, recusandae veritatis?</p>
+                        <p>As fellow graduate students at MIT in 2004, Brian and Dharmesh noticed a shift in the way people shop and buy. Consumers were no longer tolerating interruptive bids for their attention — in fact, they'd gotten really, really good at ignoring them.
+                            From this shift, a company was born: HubSpot. It was founded on "inbound", the notion that people don't want to be interrupted by marketers or harassed by salespeople — they want to be helped.
+                            Today, the inbound movement continues to empower businesses around the world to stop interrupting, start helping, and return their focus to the customer.?</p>
                         <Link to="/about" className="btn btn-warning shadow">Read More</Link>
                     </div>
                 </div>
@@ -25,7 +27,7 @@ const Home = () => {
 
 
             {/* our services */}
-            <section className="section bg-c-light border-top">
+            <section className="section bg-c-light border-top mt-">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12 mb-4 text-center">
@@ -38,8 +40,8 @@ const Home = () => {
                                 <div className="card-body">
                                     <h6>Service 1</h6>
                                     <div className="underline"></div>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui in ducimus velit commodi, repellat iste.</p>
-                                    <Link to="/services" className="btn btn-warning shadow">Read More</Link>
+                                    <p>Sales CRM software to help you get deeper insights into prospects, automate the tasks you hate, and close more deals faster.</p>
+                                    <Link to="/" className="btn btn-warning shadow">Read More</Link>
                                 </div>
                             </div>
                         </div>
@@ -49,8 +51,8 @@ const Home = () => {
                                 <div className="card-body">
                                     <h6>Service 2</h6>
                                     <div className="underline"></div>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui in ducimus velit commodi, repellat iste.</p>
-                                    <Link to="/services" className="btn btn-warning shadow">Read More</Link>
+                                    <p>Sales CRM software to help you get deeper insights into prospects, automate the tasks you hate, and close more deals faster.</p>
+                                    <Link to="/" className="btn btn-warning shadow">Read More</Link>
                                 </div>
                             </div>
                         </div>
@@ -60,8 +62,8 @@ const Home = () => {
                                 <div className="card-body">
                                     <h6>Service 3</h6>
                                     <div className="underline"></div>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui in ducimus velit commodi, repellat iste.</p>
-                                    <Link to="/services" className="btn btn-warning shadow">Read More</Link>
+                                    <p>Content management software that’s flexible for marketers, powerful for developers, and gives customers a personalized, secure experience.</p>
+                                    <Link to="/" className="btn btn-warning shadow">Read More</Link>
                                 </div>
                             </div>
                         </div>

@@ -11,15 +11,18 @@ const Vmc = () => {
                     </div>
                     <div className="col-md-4 text-center">
                         <h6>Our Vision</h6>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam temporibus tempora quia porro quas earum accusamus consequatur ad reiciendis rerum beatae asperiores hic ut voluptates incidunt, </p>
+                        <p>Dreams can become a reality when we possess a vision that is characterized by the willingness to work hard, a desire for excellence, and a belief in our right and our responsiblity to be equal members of society.
+                        </p>
                     </div>
                     <div className="col-md-4 text-center">
                         <h6>Our Mission</h6>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam temporibus tempora quia porro quas earum accusamus consequatur ad reiciendis rerum beatae asperiores hic ut voluptates incidunt, </p>
+                        <p>Employees are a company's greatest asset - they're your competitive advantage. You want to attract and retain the best; provide them with encouragement, stimulus, and make them feel that they are an integral part of the company's mission.
+                        </p>
                     </div>
                     <div className="col-md-4 text-center">
                         <h6>Our Core values</h6>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam temporibus tempora quia porro quas earum accusamus consequatur ad reiciendis rerum beatae asperiores hic ut voluptates incidunt, </p>
+                        <p>We cannot change our past. We can not change the fact that people act in a certain way. We can not change the inevitable. The only thing we can do is play on the one string we have, and that is our attitude.
+                        </p>
                     </div>
                 </div>
             </div>

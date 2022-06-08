@@ -6,39 +6,37 @@ import {
     MDBRow,
     MDBBtn
 } from 'mdb-react-ui-kit';
-//improt icon 
+import { Link } from 'react-router-dom';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook, faTwitter, faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons'
-
+import { FaFacebook, FaYoutube, FaEnvelope, FaTwitterSquare, FaLinkedin, FaGithubSquare } from 'react-icons/fa';
 
 const Footer = () => {
     return (
         <MDBFooter className='text-center navbar-fixed-bottom border-top' color='black' bgColor='white'>
             <MDBContainer className='p-4'>
                 <section className='mb-4'>
-                    <a className='btn btn-outline-light btn-floating m-1' href='#!' role='button'>
-                        <FontAwesomeIcon icon={faFacebook} />
+                    <a className='btn btn-outline-dark btn-floating m-1' href='#!' role='button'>
+                        <FaFacebook />
                     </a>
 
-                    <a className='btn btn-outline-light btn-floating m-1' href='#!' role='button'>
-
+                    <a className='btn btn-outline-dark btn-floating m-1' href='#!' role='button'>
+                        <FaYoutube />
                     </a>
 
-                    <a className='btn btn-outline-light btn-floating m-1' href='#!' role='button'>
-
+                    <a className='btn btn-outline-dark btn-floating m-1' href='#!' role='button'>
+                        <FaEnvelope />
                     </a>
 
-                    <a className='btn btn-outline-light btn-floating m-1' href='#!' role='button'>
-
+                    <a className='btn btn-outline-dark btn-floating m-1' href='#!' role='button'>
+                        <FaTwitterSquare />
                     </a>
 
-                    <a className='btn btn-outline-light btn-floating m-1' href='#!' role='button'>
-
+                    <a className='btn btn-outline-dark btn-floating m-1' href='#!' role='button'>
+                        <FaLinkedin />
                     </a>
 
-                    <a className='btn btn-outline-light btn-floating m-1' href='#!' role='button'>
-
+                    <a className='btn btn-outline-dark btn-floating m-1' href='#!' role='button'>
+                        <FaGithubSquare />
                     </a>
                 </section>
 
@@ -66,9 +64,7 @@ const Footer = () => {
 
                 <section className='mb-4'>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum repellat quaerat
-                        voluptatibus placeat nam, commodi optio pariatur est quia magnam eum harum corrupti dicta, aliquam
-                        sequi voluptate quas.
+                        {/* Customers should be number one, Employees number two, and then only your Shareholders come at number three. */}
                     </p>
                 </section>
 
@@ -95,7 +91,8 @@ const Footer = () => {
                                 </li>
                                 <li>
                                     <a href='#!' className='text-black'>
-                                        Contact Us
+                                        <Link to='/contact' className="Link">Contact Us</Link>
+
                                     </a>
                                 </li>
                             </ul>
@@ -106,8 +103,9 @@ const Footer = () => {
 
                             <ul className='list-unstyled mb-0'>
                                 <li>
-                                    <a href='#!' className='text-black'>
-                                        About Us
+                                    <a href='#!' className='text-black' >
+                                        <Link to='/about' className="Link" >About Us</Link>
+
                                     </a>
                                 </li>
                                 <li>

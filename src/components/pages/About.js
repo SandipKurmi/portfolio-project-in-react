@@ -12,7 +12,8 @@ const About = () => {
                     <div className="col-md-12 text-center">
                         <h3 className="main-heading">About Us</h3>
                         <div className="underline mx-auto"> </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi laboriosam error deserunt nemo iste sint similique quam placeat ipsum quidem perspiciatis cupiditate minus eaque atque, adipisci fuga impedit sunt sequi! Ipsa ex ratione numquam eligendi ut expedita magnam ad dicta error! Inventore nihil sunt corporis earum eaque ex soluta similique ullam ipsum architecto neque nostrum porro, repudiandae nemo at doloremque repellendus voluptates sit incidunt? Dolorem perferendis cum praesentium similique, quidem optio delectus, tenetur autem distinctio soluta explicabo iusto consequuntur eveniet, odit incidunt culpa alias ea. Molestiae rem iusto id facilis, eveniet, dolor laborum aliquid corporis non ducimus veniam, recusandae veritatis?</p>
+                        <i className="bi bi-facebook"></i>
+                        <p>There's this notion that to grow a business, you have to be ruthless. But we know there's a better way to grow. One where what's good for the bottom line is also good for customers. We believe businesses can grow with a conscience, and succeed with a soul — and that they can do it with inbound. That's why we've created an ecosystem uniting software, education, and community to help businesses grow better every day.</p>
                         <Link to="/" className="btn btn-warning shadow">Read More</Link>
                     </div>
                 </div>
